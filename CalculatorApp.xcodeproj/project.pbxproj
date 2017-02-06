@@ -13,6 +13,8 @@
 		DD9F9C8B1E4256300038BF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9C891E4256300038BF0C /* Main.storyboard */; };
 		DD9F9C8D1E4256300038BF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9C8C1E4256300038BF0C /* Assets.xcassets */; };
 		DD9F9C901E4256300038BF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9C8E1E4256300038BF0C /* LaunchScreen.storyboard */; };
+		DD9F9C991E425AFE0038BF0C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9F9C981E425AFE0038BF0C /* Calculator.m */; };
+		DD9F9C9C1E42659B0038BF0C /* ScientificCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9F9C9B1E42659B0038BF0C /* ScientificCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		DD9F9C8C1E4256300038BF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD9F9C8F1E4256300038BF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD9F9C911E4256300038BF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9F9C971E425AFE0038BF0C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		DD9F9C981E425AFE0038BF0C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		DD9F9C9A1E42659B0038BF0C /* ScientificCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScientificCalculator.h; sourceTree = "<group>"; };
+		DD9F9C9B1E42659B0038BF0C /* ScientificCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		DD9F9C741E4256300038BF0C = {
 			isa = PBXGroup;
 			children = (
+				DD9F9C9A1E42659B0038BF0C /* ScientificCalculator.h */,
+				DD9F9C9B1E42659B0038BF0C /* ScientificCalculator.m */,
 				DD9F9C7F1E4256300038BF0C /* CalculatorApp */,
 				DD9F9C7E1E4256300038BF0C /* Products */,
 			);
@@ -67,6 +75,8 @@
 				DD9F9C8E1E4256300038BF0C /* LaunchScreen.storyboard */,
 				DD9F9C911E4256300038BF0C /* Info.plist */,
 				DD9F9C801E4256300038BF0C /* Supporting Files */,
+				DD9F9C971E425AFE0038BF0C /* Calculator.h */,
+				DD9F9C981E425AFE0038BF0C /* Calculator.m */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9F9C881E4256300038BF0C /* ViewController.m in Sources */,
+				DD9F9C991E425AFE0038BF0C /* Calculator.m in Sources */,
+				DD9F9C9C1E42659B0038BF0C /* ScientificCalculator.m in Sources */,
 				DD9F9C851E4256300038BF0C /* AppDelegate.m in Sources */,
 				DD9F9C821E4256300038BF0C /* main.m in Sources */,
 			);
@@ -309,6 +321,7 @@
 				DD9F9C961E4256300038BF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
